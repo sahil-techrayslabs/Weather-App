@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900">
+    <div class="w-11/12 max-w-md bg-[url('https://t3.ftcdn.net/jpg/08/39/84/40/360_F_839844051_savJkwrT8vhPaMcAqu96fA80rn9yKnAr.jpg')] text-white mx-auto mt-24 mb-0 rounded-2xl py-10 px-4 md:px-9 text-center">
+        <div class="w-full flex items-center justify-between" id="search">
+            <input class="border-none outline-none bg-gray-200 text-gray-600 py-2 px-6 h-14 rounded-full flex-1 mr-2 md:mr-4 text-lg" type="text" placeholder="Search for a city" spellcheck="false">
+            <button class="border-none outline-none bg-gray-200 rounded-full w-14 h-14 cursor-pointer">
+                <img src="search.png" alt="" class="w-4 mx-auto">
+            </button>
+        </div>
+        <div class="text-left ml-2.5 text-sm mt-2.5 hidden" id="error">
+            <p class="text-red-800">Invalid city name</p>
+        </div>
+        <div class="hidden" id="weather">
+            <img src="rain.png" alt="" class="w-44 mt-8 mx-auto" id="weatherIcon">
+            <button id="toggleTemp">°Celcius/°Farheneit</button>
+
+            <h1 class="text-7xl font-3xl" id="temperature">22°c</h1>
+            <h2 class="text-5xl font-normal mt-4" id="city">Nairobi</h2>
+            <div class="flex justify-between items-center py-0 md:px-5 mt-12">
+                <div class="flex items-center text-left">
+                    <img src="humidity.png" alt="" class="w-10 mr-2.5">
+                    <div class="">
+                        <p class="text-2xl -mt-1.5" id="humidity">50%</p>
+                        <p class="" >Humidity</p>
+                    </div>
+                </div>
+                <div class="flex items-center text-left">
+                    <img src="wind.png" alt="" class="w-10 mr-2.5">
+                    <div class="">
+                        <p class="text-2xl -mt-1.5" id="wind">15 km/h</p>
+                        <p class="" >Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="app-title">Weather App</h1>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="searchButton">Search</button>
+    </div>
+    <div id="error" class="error"></div>
+    <div class="weather-info" id="weatherInfo">
+      <h2 id="cityName"></h2>
+      <div class="temperature">
+        <span id="tempValue"></span>
+        <span id="tempUnit">°C</span>
+      </div>
+      <p id="weatherDescription"></p>
+      <img id="weatherIcon" alt="Weather Icon">
+      <p id="additionalInfo"></p>
+      <button id="unitToggle">Switch to °F</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
