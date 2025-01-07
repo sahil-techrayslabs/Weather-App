@@ -48,6 +48,8 @@ body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
   background-image: url(https://t3.ftcdn.net/jpg/09/19/63/16/360_F_919631686_524xw6J1pxJsX6S2YvTwMuUjztoMVTdz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*
